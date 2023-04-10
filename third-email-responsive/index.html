@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Third Responsive Email</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #003468;
+      }
+      table {
+        border-spacing: 0;
+      }
+      td {
+        padding: 0;
+      }
+      img {
+        border: 0;
+      }
+      .wrapper {
+        width: 100%;
+        table-layout: fixed;
+        background-color: #003468;
+        padding-bottom: 40px;
+      }
+      .webkit {
+        max-width: 600px;
+        background-color: #ffffff;
+      }
+      .outer {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        border-spacing: 0;
+        font-family: sans-serif;
+        color: #4a4a4a;
+      }
+      .three-columns {
+        text-align: center;
+        font-size: 0;
+        padding-top: 40px;
+        padding-bottom: 30px;
+      }
+      .three-columns .column {
+        width: 100%;
+        max-width: 200px;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .padding {
+        padding: 15px;
+      }
+      .three-columns .content {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: #388cda;
+        font-size: 16px;
+      }
+
+      @media screen and (max-width: 600px) {
+        img.third-img-last {
+          width: 200px !important;
+          max-width: 200px !important;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        img.third-img {
+          width: 200px !important;
+          max-width: 200px !important;
+        }
+        .padding {
+          padding-right: 0 !important;
+          padding-left: 0 !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <center class="wrapper">
+      <div class="webkit">
+        <table class="outer" align="center">
+          <tr>
+            <td>
+              <table width="100%" style="border-spacing: 0">
+                <!-- Logo -->
+                <tr>
+                  <td
+                    style="
+                      background-color: #388cda;
+                      padding: 10px;
+                      text-align: center;
+                    "
+                  >
+                    <a href="#"
+                      ><img
+                        src="img/w3newbie-white.png"
+                        width="180"
+                        alt="Logo"
+                        title="Logo"
+                    /></a>
+                  </td>
+                </tr>
+                <!-- Banner -->
+                <tr>
+                  <td>
+                    <a href="#"
+                      ><img
+                        src="img/1200x700.jpg"
+                        alt="Banner"
+                        width="600"
+                        style="max-width: 100%"
+                    /></a>
+                  </td>
+                </tr>
+                <!-- Three Cols -->
+                <tr>
+                  <td>
+                    <table width="100%" style="border-spacing: 0">
+                      <tr>
+                        <td class="three-columns">
+                          <!-- Col 1 -->
+                          <table class="column">
+                            <tr>
+                              <td class="padding">
+                                <table class="content">
+                                  <tr>
+                                    <td>
+                                      <a href="#"
+                                        ><img
+                                          src="img/380x280.jpg"
+                                          alt=""
+                                          width="150"
+                                          style="max-width: 150px"
+                                          class="third-img"
+                                      /></a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td style="padding: 10px">
+                                      <p
+                                        style="
+                                          font-size: 17px;
+                                          font-weight: bold;
+                                        "
+                                      >
+                                        APPLE WATCH
+                                      </p>
+                                      <p>
+                                        Lorem ipsum dolor, sit amet consectetur
+                                        adipisicing elit itaque recusandae
+                                        molestiae qui esse.
+                                      </p>
+                                      <a href="#">Learn More...</a>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- Col 2 -->
+                          <table class="column">
+                            <tr>
+                              <td class="padding">
+                                <table class="content">
+                                  <tr>
+                                    <td>
+                                      <a href="#"
+                                        ><img
+                                          class="third-img"
+                                          src="img/380x280-2.jpg"
+                                          alt=""
+                                          width="150"
+                                          style="max-width: 150px"
+                                      /></a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td style="padding: 10px">
+                                      <p
+                                        style="
+                                          font-size: 17px;
+                                          font-weight: bold;
+                                        "
+                                      >
+                                        EAR PODS
+                                      </p>
+                                      <p>
+                                        Lorem ipsum dolor, sit amet consectetur
+                                        adipisicing elit itaque recusandae
+                                        molestiae qui esse.
+                                      </p>
+                                      <a href="#">Learn More...</a>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- Col 3 -->
+                          <table class="column">
+                            <tr>
+                              <td class="padding">
+                                <table class="content">
+                                  <tr>
+                                    <td>
+                                      <a href="#"
+                                        ><img
+                                          class="third-img-last"
+                                          src="img/380x280-3.jpg"
+                                          alt=""
+                                          width="150"
+                                          style="max-width: 150px"
+                                      /></a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td style="padding: 10px">
+                                      <p
+                                        style="
+                                          font-size: 17px;
+                                          font-weight: bold;
+                                        "
+                                      >
+                                        WATCH BANDS
+                                      </p>
+                                      <p>
+                                        Lorem ipsum dolor, sit amet consectetur
+                                        adipisicing elit itaque recusandae
+                                        molestiae qui esse.
+                                      </p>
+                                      <a href="#">Learn More...</a>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- Contact socials media -->
+          <tr>
+            <td>
+              <table width="100%" style="border-spacing: 0">
+                <tr>
+                  <td
+                    style="
+                      background-color: #388cda;
+                      padding: 15px;
+                      text-align: center;
+                    "
+                  >
+                    <p
+                      style="
+                        font-size: 18px;
+                        color: #ffffff;
+                        margin-bottom: 13px;
+                      "
+                    >
+                      Connect with us
+                    </p>
+                    <a href="#"
+                      ><img
+                        src="img/white-facebook.png"
+                        alt="facebook"
+                        width="30"
+                    /></a>
+                    <a href="#"
+                      ><img
+                        src="img/white-instagram.png"
+                        alt="instagram"
+                        width="30"
+                    /></a>
+                    <a href="#"
+                      ><img
+                        src="img/white-linkedin.png"
+                        alt="linkedin"
+                        width="30"
+                    /></a>
+                    <a href="#"
+                      ><img
+                        src="img/white-twitter.png"
+                        alt="twitter"
+                        width="30"
+                    /></a>
+                    <a href="#"
+                      ><img
+                        src="img/white-youtube.png"
+                        alt="youtube"
+                        width="30"
+                    /></a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- Footer -->
+          <tr>
+            <td style="background-color: #efefef">
+              <table width="100%" style="border-spacing: 0">
+                <tr>
+                  <td
+                    style="
+                      padding: 20px;
+                      text-align: center;
+                      padding-bottom: 10px;
+                    "
+                  >
+                    <a href="#"
+                      ><img src="img/w3newbie.png" alt="" width="160"
+                    /></a>
+                    <p
+                      style="
+                        font-size: 16px;
+                        margin-top: 18px;
+                        margin-bottom: 10px;
+                      "
+                    >
+                      HTML Email
+                    </p>
+                    <p style="font-size: 16px; margin-bottom: 10px">
+                      123 Street Road, City, State 5555
+                    </p>
+                    <p>
+                      <a href="mailto:email@example.com"> email@example.com </a>
+                    </p>
+                    <p><a href="tel:111111111">11-2233-4455</a></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    align="center"
+                    style="padding-bottom: 25px; text-align: center"
+                  >
+                    <p><a href="#">UNSUBSCRIBE</a></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="20" style="background-color: #388cda"></td>
+          </tr>
+        </table>
+      </div>
+    </center>
+  </body>
+</html>
